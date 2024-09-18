@@ -19,7 +19,7 @@ public class JsonDemo3 {
                 .url("https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1")
                 .get()
                 .addHeader("accept", "application/json")
-                .addHeader("Authorization", "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZWI4OWFhZmUyNWExYWYxNDc1MzYxNGNhMDgzNDJlYyIsIm5iZiI6MTcyNjYyMzcxMC45Njk2ODEsInN1YiI6IjVmMWNiMjk1MGJiMDc2MDAzNGYxMDUzOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Uz4bYvhICOi1cxvyCFTqG8rHxnClfTKL-oZVgu83KbQ")
+                .addHeader("Authorization", "Bearer XXXXXXXXXX") // replace XXXXXXs with your API Read Access Token
                 .build();
 
         Response response = client.newCall(request).execute();
