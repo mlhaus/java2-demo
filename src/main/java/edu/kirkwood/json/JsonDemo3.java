@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 public class JsonDemo3 {
     public static void main(String[] args) throws IOException {
-        String accessToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZWI4OWFhZmUyNWExYWYxNDc1MzYxNGNhMDgzNDJlYyIsIm5iZiI6MTcyNzIxOTEzMy4wNzgxMywic3ViIjoiNWYxY2IyOTUwYmIwNzYwMDM0ZjEwNTM5Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.D-UUE3FuDRTAF_Zmytibo95kO5JbStUpwk372oeScf8";
+        String accessToken = "XXXX";
         OkHttpClient client = new OkHttpClient();
 
         Request request = new Request.Builder()
