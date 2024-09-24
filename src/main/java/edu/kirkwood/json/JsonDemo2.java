@@ -13,6 +13,7 @@ public class JsonDemo2 {
     private static final String API_URL = "https://randomuser.me/api/?format=json&results=10&nat=us&seed=xyz";
 
     public static void main(String[] args) throws IOException {
+        System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2");
         OkHttpClient client = new OkHttpClient();
 
         Request request = new Request.Builder()
